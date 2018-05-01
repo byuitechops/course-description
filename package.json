@@ -1,0 +1,29 @@
+{
+  "name": "course-description",
+  "version": "1.0.0",
+  "description": "Pull course descriptions from http://www.byui.edu/catalog/#/courses and put them into Canvas's Description section under Settings",
+  "main": "main.js",
+  "dependencies": {
+    "canvas-wrapper": "github:byuitechops/canvas-wrapper"
+  },
+  "devDependencies": {
+    "async": "^2.6.0",
+    "child-development-kit": "github:byuitechops/child-development-kit",
+    "tap": "^10.7.3"
+  },
+  "scripts": {
+    "start": "node ./node_modules/child-development-kit/runChild.js",
+    "test": "tap ./node_modules/child-development-kit/runChild.js -T"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byuitechops/course-description.git"
+  },
+  "author": "Seth Childers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/byuitechops/course-description/issues"
+  },
+  "homepage": "https://github.com/byuitechops/course-description#readme",
+  "childType": "postImport"
+}
