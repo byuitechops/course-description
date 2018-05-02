@@ -112,7 +112,7 @@ module.exports = (course, stepCallback) => {
             }
 
             /* Log the description and course ID */
-            course.log(`Add Description`, {
+            course.log(`Add Course Description`, {
                 'Course ID': course.info.canvasOU,
                 'Course Description': description,
             });
