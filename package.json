@@ -4,7 +4,8 @@
   "description": "Pull course descriptions from http://www.byui.edu/catalog/#/courses and put them into Canvas's Description section under Settings",
   "main": "main.js",
   "dependencies": {
-    "canvas-wrapper": "github:byuitechops/canvas-wrapper"
+    "canvas-wrapper": "github:byuitechops/canvas-wrapper",
+    "puppeteer": "^1.8.0"
   },
   "devDependencies": {
     "async": "^2.6.0",
